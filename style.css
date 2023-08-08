@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   /*background repeat, position/size*/
   background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
@@ -10,12 +16,12 @@ body * {
 #container {
   border: 1px solid red;
   width: 360px;
-  height: 712px;
-  margin: auto;
+  margin: 56px auto 0px;
 }
 
 #profile {
   text-align: center;
+  padding: 24px;
 }
 
 #profile img {
